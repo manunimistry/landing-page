@@ -33,6 +33,12 @@ const Home = () => {
         </div>
       ))}
     </section>
+    <br></br>
+      <div className="para">
+    <h2>Streamline your workflow with TechVantage</h2> 
+    <br/>
+    <p>TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution.</p>
+    </div>
     </div>
     
     
