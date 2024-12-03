@@ -1,7 +1,9 @@
 import React from 'react'
 //import Navbar from './Navbar'
 import homeimg from "../Assets/hero-distribution.webp"
+
 import './Navbar.css'
+//import './functionalities'
 
 const Home = () => {
   const features = [
@@ -24,21 +26,19 @@ const Home = () => {
     <img src={homeimg} alt='' className='isize'></img>
     </div>
 {/*cards*/}
-    <section className="features">
+    <div className="features">
       {features.map((feature, index) => (
         <div className="feature-card" key={index}>
           <div className="feature-icon">{feature.icon}</div>
-          <h3>{feature.title}</h3>
+          <h3 >{feature.title}</h3>
           <p>{feature.description}</p>
         </div>
       ))}
-    </section>
-    <br></br>
-      <div className="para">
-    <h2>Streamline your workflow with TechVantage</h2> 
-    <br/>
-    <p>TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution. TechVantage is cutting edge SaaS solution.</p>
     </div>
+    <br></br>
+
+   
+  
     </div>
     
     

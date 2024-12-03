@@ -8,6 +8,15 @@ import {BrowserRouter as Router,  Route ,Routes } from 'react-router-dom';
 import Solutions from './components/Solutions';
 import Resources from './components/Resources';
 import Pricing from './components/Pricing';
+import Benefits from './components/Benefits';
+import FreeResources from './components/FreeResources';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Customer from './components/Customer';
+import Footer from './components/Footer';
+
+
+
+
 
 function App() {
   return (
@@ -23,6 +32,13 @@ function App() {
           <Route path='/resources' element={<Resources />} />
           <Route path='/pricing' element={<Pricing  />} />
         </Routes>
+
+        
+      <Benefits />
+      <Customer />
+      <FreeResources />
+      <Footer />
+      
       
     </div>
     </Router>
