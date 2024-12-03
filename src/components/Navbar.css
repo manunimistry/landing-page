@@ -278,7 +278,7 @@ div h4{
   display: flex;
   align-items: center;
   margin: 0 auto;
-  max-width: 80%; /* Adjust width as needed */
+  max-width: 80%; 
 }
 
 .slider {
@@ -287,11 +287,11 @@ div h4{
   scroll-behavior: smooth;
   gap: 1rem;
   padding: 1rem 0;
-  scrollbar-width: none; /* For Firefox */
+  scrollbar-width: none; 
 }
 
 .slider::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Edge */
+  display: none;
 }
 
 /* Individual Card */
@@ -300,7 +300,7 @@ div h4{
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 300px;
-  flex: 0 0 auto; /* Prevent shrinking */
+  flex: 0 0 auto; 
   padding: 1.5rem;
   text-align: center;
   display: flex;
@@ -353,11 +353,11 @@ div h4{
 }
 
 .slider-button.left {
-  left: -20px; /* Adjust position */
+  left: -20px; 
 }
 
 .slider-button.right {
-  right: -20px; /* Adjust position */
+  right: -20px; 
 }
 
 .slider-button:hover {
