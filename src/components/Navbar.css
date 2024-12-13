@@ -14,9 +14,7 @@
   
   list-style: none;
   text-align: center;
-  display: flex;
-  gap: 20px;
-  margin: 0;
+  
 }
 
 .navul .navli {
@@ -26,10 +24,12 @@
   cursor: pointer;
 }
 
+
+
 .navbtn,
 .btn2 {
   font-size: 14px;
-  
+  padding: 7px 20px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
@@ -47,11 +47,11 @@
   color: rgba(28, 119, 194, 0.808);
   
 }
-
+/*
 ul.navul.navli {
   align-items: center;
 }
-
+*/
 .home-container {
   width: 100%;
   display: flex;
@@ -124,9 +124,12 @@ button {
   .menu-toggle {
     display: none;
   }
+ 
+ 
 }
 
 @media (max-width: 1200px) {
+  
   .menu {
     display: none;
     position: absolute;
@@ -139,7 +142,10 @@ button {
     padding: 10px;
     width: 200px;
   }
+  
 
+ 
+ 
   .menu.open {
     display: flex;
   }
